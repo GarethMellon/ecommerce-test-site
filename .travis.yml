@@ -1,0 +1,6 @@
+language: pythojn
+pyhton:
+- "3.4"
+isntall: "pip install -r requirements.txt"
+script:
+- SECRET_KEY= "whatever" ./manage.py test
